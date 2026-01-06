@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portofolio Ilman Dev - Web Developer & UI Designer">
+    <meta name="keywords" content="Portofolio, Web Developer, HTML, CSS, JavaScript">
+    <meta name="author" content="Ilman Dev">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilman Dev | Portofolio</title>
+
+    <!-- SEO Open Graph -->
+    <meta property="og:title" content="Ilman Dev Portofolio">
+    <meta property="og:description" content="Website portofolio profesional Ilman Dev">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<div class="overlay" onclick="toggleMenu()"></div>
+<footer class="footer">
+    <p>© 2026 Ilman Dev. All Rights Reserved.</p>
+</footer>
+
+<body>
+    
+
+
+<!-- Navbar -->
+<header>
+    <nav class="navbar">
+        <button class="dark-btn" onclick="toggleDark()">🌙</button>
+
+        <div class="logo">Ilman<span>Developer</span></div>
+        <ul class="nav-menu">
+    <li><a href="#home">🏠 Home</a></li>
+    <li><a href="#about">👤 Tentang</a></li>
+    <li><a href="#skills">🛠 Skill</a></li>
+    <li><a href="#projects">📁 Projek</a></li>
+    <li><a href="#contact">📞 Kontak</a></li>
+</ul>
+
+        <div class="menu-toggle" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+    </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero-profile">
+  <div class="hero-profile-box">
+
+    <div class="avatar-ring">
+      <div class="avatar-img">
+        <img src="img/profile.jpeg" alt="Foto Profil">
+      </div>
+    </div>
+
+    <h1 class="hero-name">Ilman Developer</h1>
+    <p class="hero-role">Web Developer • Cyber Technology</p>
+
+  </div>
+
+
+
+    <h1>Halo, Saya <span>Ilman</span></h1>
+    <p>Web Developer & App Developer</p>
+    <a href="#projects" class="btn">Lihat Projek</a>
+</section>
+
+<!-- About -->
+<section id="about" class="about">
+  <div class="about-container">
+    
+    <h2 class="section-title">Tentang Saya</h2>
+
+    <p class="about-text">
+      Saya adalah <span class="highlight">Web Developer</span> yang fokus membangun
+      website modern, responsif, dan cepat. 
+      Berpengalaman menggunakan <span class="highlight">HTML, CSS, JavaScript</span>
+      dengan sentuhan desain <span class="highlight">cyber & teknologi</span>.
+    </p>
+
+    <div class="about-stats">
+      <div class="stat">
+        <h3>10+</h3>
+        <span>Project</span>
+      </div>
+      <div class="stat">
+        <h3>2+</h3>
+        <span>Tahun Pengalaman</span>
+      </div>
+      <div class="stat">
+        <h3>100%</h3>
+        <span>Responsif</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Skills -->
+<section id="skills" class="skills">
+  <div class="skills-container">
+    
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Responsive Design</div>
+      <div class="skill">UI / UX</div>
+      <div class="skill">SEO Basic</div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="about" class="reveal">
+<section id="skills" class="reveal">
+<section id="projects" class="reveal">
+<section id="contact" class="reveal">
+
+
+<!-- Projects -->
+
+
+<section id="projects">
+  <div class="projects-container">
+    <h2>Projek</h2>
+
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>HTML, CSS, JavaScript</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>Responsive & SEO</p>
+      </div>
+    </div>
+  </div>
+  <div class="project-links">
+    <a href="#" target="_blank">🌐 Website</a>
+    <a href="https://github.com/ilmanDev" target="https://github.com/ilmanDev">💻 GitHub</a>
+    <a href="#" target="_blank">📄 Detail Project</a>
+</div>
+
+</section>
+
+
+<!--<section id="projects">
+    <h2>Projek</h2>
+    <div class="project-list">
+        <div class="project-card">
+            <h3>Website Berita</h3>
+            <p>Portal berita modern dan responsif.</p>
+        </div>
+        <div class="project-card">
+            <h3>Landing Page</h3>
+            <p>Landing page promosi produk.</p>
+        </div>
+        <div class="project-card">
+            <h3>Portofolio</h3>
+            <p>Website personal branding.</p>
+        </div>
+    </div>
+</section>-->
+
+<!-- Contact -->
+<section id="contact" class="reveal">
+    <h2>Kontak Saya</h2>
+    <form onsubmit="sendWhatsApp(event)">
+        <input type="text" id="name" placeholder="Nama" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <textarea id="message" placeholder="Pesan" required></textarea>
+        <button type="submit" class="btn">Kirim Pesan</button>
+    </form>
+</section>
+
+
+<footer>
+    <p>© 2026 Ilman Dev. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+<button id="backToTop" aria-label="Kembali ke atas">
+    ↑
+</button>
+
+</body>
+
+</html>
